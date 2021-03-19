@@ -1,0 +1,12 @@
+1.去官网下载git
+2.初始化  git init
+3.查看文件状态 git status
+4.添加到缓存 git add .
+5.提交到本地  git commit -m "随点写点东西"
+6.生成密钥 ssh-keygen -t rsa 生成后C:\Users\Administrator\.ssh\id_rsa.pub
+7.在git中绑定密钥 
+8.获取远程仓库的地址
+	git remote add origin https://github.com/ycschang/gitJC.git
+10.推送远程仓库
+	git push origin master
+
