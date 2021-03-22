@@ -10,5 +10,7 @@
 	cnpm i axios -s  安装axios(发送ajax使用)
 7.启动项目 npm run dev
 99998
+99997
+
 
 	
