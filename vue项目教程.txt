@@ -1,17 +1,32 @@
+前言：
+	安装nodejs处理安装目录外  其它的直接下一步就行（next）
 1.安装nodejs(node -v ; npm-v  查看相关信息)
-2.安装淘宝镜像：npm  install  -g  cnpm  --registry=https://registry.npm.taobao.org
-3.安装脚手架 cnpm install  -g vue-cli
-4.查看vue 版本 vue list
+
+2.安装淘宝镜像：
+	npm  install  -g  cnpm  --registry=https://registry.npm.taobao.org
+3.安装脚手架: 
+	cnpm install  -g vue-cli
+4.查看vue 版本: 
+	vue list
 5.在d盘创建 项目: 
 	5.1D:  
 	5.2vue init webpack "vue-demo"
 6.安装依赖（无论是自己新建的还是拉取的都需要安装依赖）
 	cd vue-demo(进入项目文件夹) 安装cnpm install 依赖
 	cnpm i axios -s  安装axios(发送ajax使用)
-7.启动项目 npm run dev
-99996
-99998
+7.启动项目 
+	npm run dev
 
-
-
-	
+1》拉取新项目(cnpm 是淘宝镜像，如果用请安装该镜像)
+	1.安装脚手架 cnpm install  -g vue-cli
+	2.先删除node_modules这个文件   window下del
+		$ rm -rf node_modules   //windows系统使用： del node_modules
+	3.安装gulp-sass
+ 		$ cnpm install gulp-sass --save-dev
+	4.安装成功后，再
+		$ cnpm install
+	5.如果有axios 使用：
+		$ cnpm i axios -s
+	6.运行程序：
+		$ npm run dev
+        (vue拉取本地运行的相关问题处理)
