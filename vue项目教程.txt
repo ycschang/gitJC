@@ -18,15 +18,27 @@
 	npm run dev
 
 1》拉取新项目(cnpm 是淘宝镜像，如果用请安装该镜像)
-	1.安装脚手架 cnpm install  -g vue-cli
+	（运行nmp run dev,报错'vue-cli-service' 不是内部或外部命令，也不是可运行的程序。进行以下操作）
+	1.安装脚手架 cnpm install 
+	（报错：RunScriptError: post install error, please remove node_modules before retry!）
 	2.先删除node_modules这个文件   window下del
 		$ rm -rf node_modules   //windows系统使用： del node_modules
 	3.安装gulp-sass
  		$ cnpm install gulp-sass --save-dev
 	4.安装成功后，再
 		$ cnpm install
+	（运行 npm run dev）
 	5.如果有axios 使用：
 		$ cnpm i axios -s
 	6.运行程序：
 		$ npm run dev
         (vue拉取本地运行的相关问题处理)
+
+
+
+
+
+
+
+
+
